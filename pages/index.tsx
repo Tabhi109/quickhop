@@ -1,7 +1,14 @@
-export default function Home() {
+
+import Header from '@/components/Header';
+import UrlShortenerForm from '../components/UrlShortenerForm';
+
+const HomePage = () => {
   return (
     <div>
-      hi
+      <Header/>
+      <UrlShortenerForm />
     </div>
-  )
-} 
+  );
+};
+
+export default HomePage;

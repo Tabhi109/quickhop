@@ -1,4 +1,4 @@
-function generateUniqueHash(originalUrl: string) {
+export function generateUniqueHash(originalUrl: string) {
     const timestamp = Date.now().toString(36); 
     const randomNum = Math.floor(Math.random() * 1000000); 
     const urlFragment = originalUrl.slice(-4);
